@@ -1,5 +1,6 @@
+
 import React, { Component } from 'react';
-import {Link, Redirect} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './css/login.css';
 import axios from 'axios'
 
@@ -29,7 +30,7 @@ handleSubmit = () => {
   registeredUser.then((response)=> {
     console.log(response);
     if(response.status === 200) {
-      return <Redirect to = '/home' />
+      return (this.props.history.push('/home')) 
     }
     
   }).catch((error)=>{

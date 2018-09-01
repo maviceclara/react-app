@@ -10,7 +10,8 @@ constructor() {
   this.state = {
             name:'',
             email:'',
-            password:''
+            password:'',
+            error:''
   }
 }
 
@@ -32,8 +33,16 @@ submitForm = () => {
   let registerPromise= axios.post('https:v-forum-api.bahdcasts.com/api/register', newUser);
   registerPromise.then((response)=>{
     console.log(response)
+    if(response.status === 200) {
+      return (this.props.history.push('/home')) 
+    }
   }).catch((error)=>{
     console.log(error);
+    if(error.response.data.data.email){
+      this.setState({
+        error:
+      })
+  }
   })
 }
 
@@ -53,7 +62,7 @@ submitForm = () => {
               <input type="password" name={"password"} id="password" value={this.state.password} className="form-control" placeholder="Enter password.." onChange={this.handleChange}/>
               <span className id="error-password" />
               <button className="btn btn-primary btn-sm my-3" id="btn" onClick={this.submitForm}>Submit</button>
-              <small id="error-message" className="text-center text-danger" />
+              <small id="error-message"  value={this.state.error} className="text-center text-danger" />
               <button className="btn btn-primary btn-sm my-3 " id="btn-loading" >
                 <i className="fas fa-spinner fa-spin" />
               </button>
