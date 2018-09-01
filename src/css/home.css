@@ -1,0 +1,299 @@
+
+/* styling for first section */
+
+.container {
+    border: 4px solid white
+}
+
+.button {
+    border: 4px solid green;
+}
+
+.logo {
+    font-family: 'Vidaloka', serif;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+.iconstyle {
+    margin-left: 100px;
+}
+
+.btn-outline {
+    border-radius: 50%;
+}
+
+/*  styling for the second section  */
+
+.sm-2 {
+    font-size: 15px;
+}
+
+
+.col {
+    color: grey;
+}
+
+
+
+/*  stlying for the third section  */
+
+.img_med_1 { 
+    background-image: url("https://cdn-images-1.medium.com/fit/c/416/151/1*mKe2O-D4L2IGyrHcc392pA.png");
+    background-repeat: no-repeat;
+	position:relative;
+	right:70px;
+	height: 150px;
+    width:323px;
+    margin-left: 75px;    
+}
+
+.img_med_2 { 
+    background-image: url("https://cdn-images-1.medium.com/focal/504/222/61/27/1*0wPxWFWLz1PWE-bJnYMFhw.jpeg");
+    background-repeat: no-repeat;
+	position:relative;
+	height: 150px;
+    width:323px;    
+}
+
+.metaData {
+    position: relative;
+    top: -7px;
+    font-size: 14px;
+    font-family: 'Vidaloka', serif;
+
+}
+.newFont {
+    font-family: 'Vidaloka', serif;
+}
+
+.meta_Data {
+    font-size: 16px;
+    margin-bottom: -1px;
+}
+
+.meta {
+    font-size: 14px;
+}
+
+.seeFeat {
+    
+    font-size: 14px;
+    
+}
+
+.con {
+    position: relative;
+    width: 100%;
+    margin-left: 1050px
+}
+
+
+/* styling for the fourth section */
+
+.lead {
+    height: 332px;
+    width: 1110px;
+    border: 4px solid transparent;
+    background-color:#D7EFEE; 
+}
+
+
+.loc {
+    height: 300px;
+    width: 539px;   
+}
+
+.loc2 {
+    height: 300px;
+    width: 539px;   
+    background-image: url(https://cdn-images-1.medium.com/max/1400/1*TckFXfkU_bg0aADPYR_t7Q.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.changetext {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    color: rgba(0,0,0,.84);
+    font-family: 'Vidaloka', serif; 
+}
+
+.changetext2 {
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-size: 19px;
+    font-family: 'Vidaloka', serif;
+    font-weight: 100; 
+
+    
+}
+
+.btn2 {
+    margin-left: 20px;
+}
+
+.divider {
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    max-width: 1032px;
+    margin: 24px auto;
+}
+     
+    
+
+ /* styling for the signin page */
+
+
+
+ .containerbig {
+    background-color: #D7EFEE;
+    background-image: url(https://cdn-images-1.medium.com/proxy/1*lQWWgHf-jUvQVEyAKQLIkw@2x.png);
+    background-position: 20px 100%;
+    background-size: auto 290px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position:relative;
+    left: 70px;
+    width: 900px;
+    height: 550px;
+    text-align: center;
+    padding: 50px;
+    margin: 30px 195px;
+    box-sizing: border-box
+}
+
+.containersmall {
+    width: 400px;
+    height:550px;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Georgia", "Cambria","Times New Roman",Times,serif;
+    font-size: 32px;
+    font-weight: 500;
+
+}
+
+h2 {
+    font-family:"Georgia", "Cambria","Times New Roman",Times,serif; 
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+}
+
+.btnsign {
+    background-color: #fff;
+    width: 300px;
+    height: 37px;
+    line-height: 37px;
+    border:0;
+    padding: 0 18px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    color: rgba(0,0,0,.84);
+    margin-bottom: 15px;
+
+}
+
+.btnsigntxt{
+    color: rgba(0,0,0,.84);
+    fill: rgba(0,0,0,.84);
+    font-family: "Georgia", "Cambria","Times New Roman",Times,serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 10px;
+   
+}
+
+.fa-facebook {
+    color: rgb(28, 79, 102);
+}
+
+.fa-twitter {
+    color: deepskyblue;
+}
+
+
+/* styling for the signup page */
+
+.containerbi {
+    background-color: #D7EFEE;
+    background-image: url(https://cdn-images-1.medium.com/proxy/1*lQWWgHf-jUvQVEyAKQLIkw@2x.png);
+    background-position: 20px 100%;
+    background-size: auto 290px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    position:relative;
+    align-self: center;
+    width: 900px;
+    height: 550px;
+    text-align: center;
+    padding: 50px;
+    margin: 30px 195px;
+    box-sizing: border-box
+}
+
+.containersm {
+    width: 400px;
+    height:550px;
+    margin: auto;
+}
+
+h1 {
+    font-family:  "Georgia", "Cambria","Times New Roman",Times,serif;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 500;
+
+}
+
+h2 {
+    font-family:  "Georgia", "Cambria","Times New Roman",Times,serif;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+}
+
+.btnsign2 {
+    background: #fff;
+    width: 300px;
+    height: 37px;
+    line-height: 37px;
+    border:0;
+    padding: 0 18px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    color: rgba(0,0,0,.84);
+    margin-bottom: 15px;
+
+}
+
+.btnsigntxt2{
+    color: rgba(0,0,0,.84);
+    fill: rgba(0,0,0,.84);
+    font-family:"Georgia", "Cambria","Times New Roman",Times,serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 10px;
+   
+}
+
+.fa-facebook {
+    color: rgb(28, 79, 102);
+}
