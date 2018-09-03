@@ -38,11 +38,7 @@ submitForm = () => {
     }
   }).catch((error)=>{
     console.log(error);
-    if(error.response.data.data.email){
-      this.setState({
-        error:
-      })
-  }
+   
   })
 }
 
